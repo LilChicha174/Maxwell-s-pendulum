@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-// ДОБАВИЛ МИЛЛИМЕТРЫ АЛЕКСАНДР МАЛЬКОВ
+// ДОБАВИЛ МИЛЛИМЕТРЫ 
 
 export default class LinearScale{
     //ОТРИСОВКА ШКАЛЫ ЛИНЕЙКИ

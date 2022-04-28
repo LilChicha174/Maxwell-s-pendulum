@@ -5,8 +5,7 @@ import Scene from "./Scene";
 
 import {OrbitControls} from "./noDisablingEventsOrbitControls";
 
-// ОПИСАЛ ЛОГИКУ ПЕРЕМЕЩЕНИЯ ШТАНГЕНЦИРКУЛЯ И УБРАЛ ЗАПРЕТ СОБЫТИЙ МЫШИ В OrbitControls АЛЕКСАНДР МАЛЬКОВ
-// malkov.fighter@yandex.ru
+// ОПИСАЛ ЛОГИКУ ПЕРЕМЕЩЕНИЯ ШТАНГЕНЦИРКУЛЯ И УБРАЛ ЗАПРЕТ СОБЫТИЙ МЫШИ
 
 //ВИДЖЕТ FPS
 const STATS = new Stats();
