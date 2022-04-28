@@ -10,7 +10,7 @@
    * Если требуется вносить изменения в удаленный репозиторий:
       - Чтобы скачать с помощью Git, скачаем и установим его с [официального сайта](https://git-scm.com/downloads).
       - В консоли открываем папку, где хотим разместить проект. Сделать это можно открыв папку и вписав `CMD` вместо пути к папке.
-      - Используйте команду `git clone https://github.com/akiton/virtual-laboratory-setup.git`, чтобы скачать репозиторий. Больше информации вы можете найти в [документации](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository).
+      - Используйте команду `git clone https://github.com/LilChicha174/Maxwell-s-pendulum.git`, чтобы скачать репозиторий. Больше информации вы можете найти в [документации](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository).
    
    * Если не требуется вносить изменения в удаленный репозиторий, то скачиваем архив с проектом и распаковываем. Для работы маятника необходим файл `index.html` и директория `build`.
 
