@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "Laboratory facility \"Maxwell's Pendulum\"",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "dev": "node index.js"
+  },
+  "author": "Akimkin Anton",
+  "license": "ISC",
+  "devDependencies": {
+    "json5-loader": "^4.0.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "stats.js": "^0.17.0",
+    "three": "^0.124.0"
+  }
+}

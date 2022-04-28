@@ -1,0 +1,34 @@
+{
+    base: {
+        maximum: 60
+    },
+    disk:{
+        disk:{
+            width: 2,
+            radius: 8,
+            weightWithoutHoles: 1,
+            holes: {
+                quantity: 6,
+                distanceFromCenter: 5.5,
+                radius: 1.5
+            }
+        },
+        pole:{
+            radius: 0.5,
+            height: 25,
+            weight: 0.1
+        },
+        ringSmall:{
+            width: 3,
+            innerRadius: 8,
+            outerRadius: 9,
+            weight: 2
+        },
+        ringBig:{
+            width: 3,
+            innerRadius: 8,
+            outerRadius: 10,
+            weight: 5
+        }
+    }
+}

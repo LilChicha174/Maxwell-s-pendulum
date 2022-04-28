@@ -1,0 +1,11 @@
+Model Information:
+* title:	caliper
+* source:	https://sketchfab.com/3d-models/caliper-01c9c1056323413ba68488a2bb6b472b
+* author:	thierry1222 (https://sketchfab.com/thierry1222)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "caliper" (https://sketchfab.com/3d-models/caliper-01c9c1056323413ba68488a2bb6b472b) by thierry1222 (https://sketchfab.com/thierry1222) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Маятник Максвелла</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<style>
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
+        canvas{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+
+        #controlPanel{
+            position: absolute;
+            right: 1em;
+            bottom: 1em;
+        }
+
+        button{
+            font-size: 1em;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            border: 1px solid white;
+            background-color: rgba(0,0,0,0.79);
+            width: 15em;
+            padding: 0.7em 0;
+            margin-bottom: 0.7em;
+        }
+
+        button:disabled{
+            color: rgba(255, 255, 255, 0.87);
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        @font-face {font-family: "Digital-7"; src: url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.eot"); src: url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.woff") format("woff"), url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/58045dabdc3a361cb9bb9faf2f1dd1f3.svg#Digital-7") format("svg"); }
+    </style>
+</head>
+<body>
+<!-- ДОБАВИЛ КНОПКУ УПРАВЛЕНИЯ ШТАНГЕНЦИРКУЛЕМ АЛЕКСАНДР МАЛЬКОВ -->
+    <div id="controlPanel">
+        <button id="changeRing">Сменить кольцо</button><br>
+        <button id="measureControl">Начать измерение</button><br>
+        <button id="sensorMoveUp">Переместить датчик вверх</button><br>
+        <button id="sensorMoveDown">Переместить датчик вниз</button><br>
+        <button id="rotateCaliper">Повернуть штангенциркуль</button>
+    </div>
+</body>
+
+<script type="text/javascript" src="/build/app.js"></script>
+
+</html>
